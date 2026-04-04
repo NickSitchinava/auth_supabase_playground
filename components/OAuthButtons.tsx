@@ -1,6 +1,6 @@
 "use client"
 
-import { supabase } from "@/lib/Auth"
+import { supabase } from "@/lib/auth"
 
 export default function OAuthButtons() {
   const login = async (provider: "google" | "github") => {
